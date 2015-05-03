@@ -23,4 +23,9 @@ End: Sat, 2 May 2015 4:00 -0500
 Tasks: Tried to get correct behavior
 
 Start: Sun, 3 May 2015 12:00 -0500
-End: Sun, 3 May 2015 
+End: Sun, 3 May 2015  15:30-0500
+Tasks: Created login.php content 1 and 2.php
+
+Start: Sun, 3 May 2015 18:30 -0500
+End: Sun, 3 May 2015  19:45-0500
+Tasks: Finished login.php content 1 and 2.php and fixed issue with loopback.php
