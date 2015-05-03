@@ -1,0 +1,26 @@
+Start: Mon, 27 Apr 2015 20:00 -0500
+End: Mon, 27 Apr 2015 21:33 -0500
+Tasks: Worked on multtable. Working on the table loop.
+
+Start: Tuesday, 28 Apr 2015 15:45 -0500
+End: Tuesday, 28 Apr 2015 17:15 -0500
+Tasks: Working on the table loop.
+
+Start: Tuesday, 28 Apr 2015 20:15 -0500
+End: Tuesday, 28 Apr 2015 	23:45 -0500
+Tasks: Finished table. Now working to make input from url work.
+
+Start: Thurs, 30 Apr 2015 1:00 -0500
+End: Thurs, 30 Apr 2015 2:30 -0500
+Tasks: Found way to make string from GET into number without making it a int.
+
+Start: Thurs, 30 Apr 2015 11:45 -0500
+End: Thurs, 30 Apr 2015 13:15 -0500
+Tasks: Started loopback.php. Tried to understand what needs to be done
+
+Start: Sat, 2 May 2015 1:00 -0500
+End: Sat, 2 May 2015 4:00 -0500
+Tasks: Tried to get correct behavior
+
+Start: Sun, 3 May 2015 12:00 -0500
+End: Sun, 3 May 2015 
