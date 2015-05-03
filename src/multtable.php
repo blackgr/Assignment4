@@ -1,5 +1,6 @@
 <?php
-//TEST URL http://localhost/multtable.php?min=5&max=10&min_multiplier=1&max_multiplier=7
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 $min_multiplicand = $_GET['min'];
 $max_multiplicand = $_GET['max'];
