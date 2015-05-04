@@ -1,4 +1,6 @@
 <?php
+//TEST URL http://localhost/multtable.php?min=5&max=10&min_multiplier=1&max_multiplier=7
+
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
@@ -12,34 +14,34 @@ if(!isset($_GET['min'],$_GET['max'],$_GET['min_multiplier'],$_GET['max_multiplie
 	echo "<br>";
 	$allGood = false;
 }
-
- 
-if(is_numeric($min_multiplicand) && (ctype_punct($min_multiplicand))) {
-	echo "Min-multiplicand must be an integer.";
-	echo "<br>";
-	$allGood = false;
+else{
+	 
+	if(is_numeric($min_multiplicand) && (ctype_punct($min_multiplicand))) {
+		echo "Min-multiplicand must be an integer.";
+		echo "<br>";
+		$allGood = false;
+	}
+	if(is_numeric($max_multiplicand) && (ctype_punct($max_multiplicand))) { 
+		echo "Max-multiplier must be an integer.";
+		echo "<br>";
+		$allGood = false;
+	}
+	if(is_numeric($max_multiplier) && (ctype_punct($max_multiplier)))  {
+		echo "Max-multiplier must be an integer.";
+		echo "<br>";
+		$allGood = false;
+	}
+	if(is_numeric($min_multiplier) && (ctype_punct($min_multiplier))) {
+		echo "Min-multiplier must be an integer.";
+		echo "<br>";
+		$allGood = false;
+	}
+	if($min_multiplicand >= $max_multiplicand || $min_multiplier >= $max_multiplier){
+		echo "Minimum [multiplicand|multiplier] larger than maximum.";
+		echo "<br>";
+		$allGood = false;
+	}
 }
-if(is_numeric($max_multiplicand) && (ctype_punct($max_multiplicand))) { 
-	echo "Max-multiplier must be an integer.";
-	echo "<br>";
-	$allGood = false;
-}
-if(is_numeric($max_multiplier) && (ctype_punct($max_multiplier)))  {
-	echo "Max-multiplier must be an integer.";
-	echo "<br>";
-	$allGood = false;
-}
-if(is_numeric($min_multiplier) && (ctype_punct($min_multiplier))) {
-	echo "Min-multiplier must be an integer.";
-	echo "<br>";
-	$allGood = false;
-}
-if($min_multiplicand >= $max_multiplicand || $min_multiplier >= $max_multiplier){
-	echo "Minimum [multiplicand|multiplier] larger than maximum.";
-	echo "<br>";
-	$allGood = false;
-}
-
 if($allGood){
 /* Worked in another file so making variables have same name */
 $min = $min_multiplier;		
